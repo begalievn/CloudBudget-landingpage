@@ -18,11 +18,10 @@
 
 .footer__container {
   width: 20%;
-  height: 60%;
+  height: 40%;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
-  align-items: flex-start;
+  justify-content: space-between;
 }
 
 .footer__h4 {
@@ -33,16 +32,50 @@
   line-height: 22px;
   /* identical to box height */
 
-  text-align: center;
+  text-align: left;
 
   color: #101010;
 }
 
+.footer__title-container {
+  width: 100%;
+  height: 20%;
+}
+
+.footer__inner-content {
+  width: 100%;
+  height: 60%;
+  display: flex;
+  align-items: flex-start;
+}
+
+.footer__inner-content__line-height {
+  line-height: 1.7em;
+}
+
+ul {
+  list-style-type: none;
+  line-height: 1.5em;
+}
 /* .footer__getInTouch-content {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
 } */
+
+.footer__icons-container {
+  width: 40%;
+  height: 20%;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.footer__texts {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
 
 .footer__copyright {
   width: 100%;

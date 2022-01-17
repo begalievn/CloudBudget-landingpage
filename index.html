@@ -369,6 +369,7 @@
       </div>
     </div>
 
+    <!-- Contact -->
     <div class="contact">
       <div class="contact__content">
         <div class="contact__title-container">
@@ -381,28 +382,49 @@
           </p>
         </div>
       </div>
+
       <div class="contact__form">
-        <form>
-          <input type="text" id="fname" name="fname" placeholder="John" />
-          <input type="text" id frame name="frame" placeholder="Last Name" />
-          <div>
+        <div class="contact__form-fieldsn cover-names">
+          <div class="name-containers">
             <input
+              class="input-name"
               type="text"
               id="fname"
-              name="frame"
-              placeholder="Phone Number"
+              name="fname"
+              placeholder="First Name"
             />
           </div>
-          <div>
+          <div class="name-containers">
             <input
+              class="input-name"
               type="text"
-              id="fname"
+              id="frame"
               name="frame"
-              placeholder="Selected Service"
+              placeholder="Last Name"
             />
           </div>
-          <button>SUBMIT NOW</button>
-        </form>
+        </div>
+        <div class="contact__form-fields">
+          <input
+            class="input-fields"
+            type="text"
+            id="fname"
+            name="frame"
+            placeholder="Phone Number"
+          />
+        </div>
+        <div class="contact__form-fields">
+          <input
+            class="input-fields"
+            type="text"
+            id="fname"
+            name="frame"
+            placeholder="Selected Service"
+          />
+        </div>
+        <div class="contact__form-fields">
+          <button class="contact__button">SUBMIT NOW</button>
+        </div>
       </div>
     </div>
 
@@ -412,10 +434,11 @@
           <div class="footer__title-container">
             <h4 class="footer__h4">Address</h4>
           </div>
-          <div class="footer__p-container">
-            <p>
-              Pipang Ltd, Griva Digeni, 81-83 Jacovides Tower, 1st Floor 1090
-              Picosia USA
+          <div class="footer__inner-content">
+            <p class="footer__inner-content__line-height">
+              Pipang Ltd, Griva Digeni,<br />
+              81-83 Jacovides Tower, 1st Floor<br />
+              1090 Picosia USA
             </p>
           </div>
         </div>
@@ -423,7 +446,7 @@
           <div class="footer__title-container">
             <h4 class="footer__h4">Services</h4>
           </div>
-          <div>
+          <div class="footer__inner-content">
             <ul>
               <li>Overview</li>
               <li>Features</li>
@@ -437,19 +460,22 @@
           <div class="footer__title-container">
             <h4 class="footer__h4">Get In Touch</h4>
           </div>
-          <div class="footer__getInTouch-content">
-            <p>info@cloudbudget.com</p>
-            <p>+1 844-721-7120</p>
+          <div class="footer__inner-content footer__texts">
+            <div><p>info@cloudbudget.com</p></div>
+            <div><p>+1 844-721-7120</p></div>
             <div class="footer__icons-container">
-              <i class="fab fa-facebook-f"></i>
-              <i class="fab fa-linkedin-in"></i>
-              <i class="fab fa-twitter"></i>
+              <div><i class="fab fa-facebook-f"></i></div>
+              <div><i class="fab fa-linkedin-in"></i></div>
+              <div><i class="fab fa-twitter"></i></div>
             </div>
           </div>
         </div>
         <div class="footer__container">
           <div class="footer__title-container">
             <h4 class="footer__h4">We Support</h4>
+          </div>
+          <div class="footer__inner-content">
+            <img src="images/secure-p-1 1.png" alt="payments" />
           </div>
         </div>
       </div>
