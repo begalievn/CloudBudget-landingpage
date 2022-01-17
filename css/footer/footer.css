@@ -9,10 +9,10 @@
 }
 
 .footer__main-content {
-  width: 100%;
+  width: 90%;
   height: 90%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -92,4 +92,11 @@ ul {
   line-height: 14px;
 
   color: #101010;
+}
+
+.footer__copyright-container {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
 }
