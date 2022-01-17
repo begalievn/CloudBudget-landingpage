@@ -68,6 +68,7 @@
 .red-2__first-image-container {
   width: 78%;
   height: 100%;
+  z-index: 1;
 }
 
 .first-image {
@@ -76,11 +77,12 @@
 }
 
 .red-2__second-image-container {
-  width: 70%;
-  height: 90%;
+  width: 60%;
+  height: 70%;
   position: absolute;
-  align-self: flex-start;
-  z-index: 2;
+  top: 15%;
+  left: 0;
+  z-index: 0;
 }
 
 .second-image {
@@ -89,10 +91,12 @@
 }
 
 .red-2__third-image-container {
-  width: 70%;
-  height: 90%;
+  width: 60%;
+  height: 70%;
   position: absolute;
-  align-self: flex-end;
+  top: 15%;
+  right: 0;
+  z-index: 0;
 }
 
 .third-image {
