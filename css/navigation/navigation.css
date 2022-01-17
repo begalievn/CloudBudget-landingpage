@@ -1,0 +1,143 @@
+.red {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(
+    90deg,
+    rgba(213, 32, 71, 0.8) 0%,
+    rgba(238, 61, 27, 0.8) 100%
+  );
+  color: white;
+}
+
+.navigation {
+  height: 12vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  /* color: #fff; */
+}
+
+.navigation__title {
+  width: 15%;
+  display: flex;
+  justify-content: space-around;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.navigation__title__text-center {
+  display: flex;
+  align-items: center;
+}
+
+.navigation__options {
+  width: 40%;
+}
+
+.navigation__lists {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.navigation__list-item {
+  font-family: 14px;
+}
+
+.logingPart {
+  width: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.loginPart__language-settings {
+  width: 43%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logingPart__button-container {
+  width: 43%;
+}
+
+.loginPart__language-text {
+  font-size: 14px;
+}
+
+.logingPart__button {
+  width: 100px;
+  height: 40px;
+  background-color: rgba(0, 0, 0, 0);
+  color: #fff;
+  border: solid 1px #fff;
+  border-radius: 5px;
+  font-size: 14px;
+  line-height: 16.8px;
+}
+
+.logingPart__image-container {
+  width: 35px;
+  height: 35px;
+}
+
+.logingPart__image {
+  width: 35px;
+  height: 35px;
+}
+
+.red-section {
+  height: 88vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.red-section__header-title {
+  height: 30vh;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+}
+.red-section__header-title-text {
+  font-weight: 900;
+}
+.red-section__content-container {
+  height: 20vh;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.red-section__button-container {
+  height: 10vh;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.red-section__content {
+  text-align: center;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.red-section__button {
+  width: 160px;
+  height: 50px;
+  border-radius: 6px;
+  border-style: none;
+  background-color: #fff;
+  color: #ed4c5c;
+  font-weight: 600;
+  line-height: 16.8px;
+}
