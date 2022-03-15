@@ -33,6 +33,10 @@
   color: #ed4c5c;
 }
 
+.content-container__learnMore:hover {
+  cursor: pointer;
+}
+
 .image-container {
   width: 40%;
   height: 400px;
@@ -50,4 +54,8 @@
 .play-button {
   position: absolute;
   left: -33px;
+}
+
+.play-button:hover {
+  cursor: pointer;
 }

@@ -48,6 +48,10 @@
   align-items: center;
 }
 
+.navigation__title__text-center:hover {
+  cursor: pointer;
+}
+
 .navigation__options {
   width: 40%;
 }
@@ -62,6 +66,10 @@
   font-family: 14px;
 }
 
+.navigation__list-item:hover {
+  cursor: pointer;
+}
+
 .logingPart {
   width: 15%;
   display: flex;
@@ -74,6 +82,10 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.loginPart__language-settings:hover {
+  cursor: pointer;
 }
 
 .logingPart__button-container {
@@ -93,6 +105,10 @@
   border-radius: 5px;
   font-size: 14px;
   line-height: 16.8px;
+}
+
+.logingPart__button:hover {
+  cursor: pointer;
 }
 
 .logingPart__image-container {
@@ -156,4 +172,8 @@
   color: #ed4c5c;
   font-weight: 600;
   line-height: 16.8px;
+}
+
+.red-section__button:hover {
+  cursor: pointer;
 }

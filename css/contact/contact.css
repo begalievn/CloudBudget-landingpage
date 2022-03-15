@@ -106,3 +106,7 @@ input {
   box-sizing: border-box;
   border-radius: 6px;
 }
+
+.contact__button:hover {
+  cursor: pointer;
+}

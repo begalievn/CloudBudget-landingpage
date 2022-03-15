@@ -49,6 +49,10 @@
   align-items: flex-start;
 }
 
+.footer__inner-content li {
+  cursor: pointer;
+}
+
 .footer__inner-content__line-height {
   line-height: 1.7em;
 }
